@@ -6,9 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /* Responsabilidad única
-*  Abierto y cerrado
-*  Sustitución
-* Segregación de interfaz
+*  Sustitución de Liskov
 * */
 public class Bibliotecario extends Empleado implements IGestionInventario {
     List<Libro> listalibros = new ArrayList<>();

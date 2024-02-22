@@ -1,6 +1,6 @@
 package co.edu.uniquindio.biblioteca.Model;
 
-/* Responsabilidad única */
+/* Abierto / cerrado */
 public abstract class Empleado {
     private String nombre;
     private String id;
